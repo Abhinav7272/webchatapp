@@ -1,0 +1,111 @@
+body{
+    color:antiquewhite;
+    background-image: url(../images/signinbg.jpg);
+    background-size: cover;
+    /* font-family:; */
+}
+.form-control{
+    min-height: 41px;
+    box-shadow: none;
+    border-color: #d1cdcd;
+}
+.form-control:focus{
+    border-color: #00cb82;
+}
+.form-control,.btn{
+    border-radius: 6px;
+}
+.form-header{
+    border-radius: 10px;
+    height:200x;
+    margin : -20px -20px 20px;
+    padding: 30px 30px 10px;
+    text-align: center;
+    
+    background:  plum;
+    border-bottom: 1px soid #eeeeee;
+    color: #ffffff;
+}
+.form-header h2{
+    margin : 0 0 10px;
+    font-size: 38px;
+    font-weight: bold;
+    /* font-family:; */
+}
+.form-header p{
+    margin :20px 0 15px;
+    font-size: 17px;
+    line-height: normal;
+    /* font-family: ; */
+}
+.sigup-form{
+    width: 390px;
+    margin:0px auto;
+    padding : 30px 0px;
+}
+.signup-form form{
+    border-radius: 10px;
+    margin-top: 1%;
+    margin-left: 15%;
+    color:#999;
+    height: 50%;
+    width:  70%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background: #f0f0f0;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.3);
+    padding: 30px;
+}
+.signup-form .form-group{
+    margin-bottom: 20px;
+}
+.signup-form label{
+    font-weight: normal;
+    font-size: 12px;
+}
+.signup-form input[type="checkbox"]{
+    margin-top: 2px;
+}
+.signup-form .btn{
+    font-size: 16px;
+    font-weight: bold;
+    background:  rgb(163, 39, 163);
+    border: none;
+    min-width: 200px;
+}
+.signup-form.btn:hover,.signin-form .btn:focus{
+    background: #0cda50 !important;
+    outline: none; 
+}
+.signup-form a{
+    color:#10dd32;
+}
+.signup-form a:hover{
+    text-decoration: underline;
+}
+.text-center{
+    color: rgb(124, 95, 95);
+
+}
+.nav{
+    background-color: plum;
+    height:55px;
+    color: skyblue;
+    border-radius:5px;
+    width: 98%;
+    margin-left: 10px;
+}
+.nav-details{
+    font-size: 20px;
+}
+.navbar .btn{
+    margin-left: 900px;
+    color: #999;
+
+}
+.navbar .nav-details{
+    color:#999;
+}
+ .nav .navbar .btn:hover{
+    color: plum;
+}
